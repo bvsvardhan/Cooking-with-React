@@ -27,7 +27,7 @@ export default function RecipeEdit({ recipe }) {
   }
   function handleIngredientDelete(id) {
     handleChange({
-      ingredients: recipe.ingredients.filter((i) => i.id != id),
+      ingredients: recipe.ingredients.filter((i) => i.id !== id),
     });
   }
 
